@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: #FFDE4D;
+}
+
+#container{
+    padding: 10%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+#container img{
+   height: 400px;
+   border: 2px;
+   box-shadow: 2px 2px 25px black;
+}
+
+#container i {
+    color: rgb(221, 65, 91);
+    font-size: 75px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 0;
+    transition: all ease 0.5s;
+  }
+  
+  h5 {
+    display: block;
+    font-size: 30px;
+  }
